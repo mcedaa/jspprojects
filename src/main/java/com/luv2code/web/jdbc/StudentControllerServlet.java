@@ -15,7 +15,7 @@ import java.io.PrintWriter;
 import java.sql.*;
 import java.util.List;
 
-@WebServlet(name = "list_students.jsp", value = "/StudentController-servlet")
+@WebServlet(name = "list_students.jsp", value = {"/StudentController-servlet",""})
 public class StudentControllerServlet extends HttpServlet {
 
     //constructor
